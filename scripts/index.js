@@ -45,6 +45,8 @@ const htmlTaskContent = ({id, title, type, description ,url}) => `
         </div>
     </div>
 `;
+
+
 const htmlModalContent = ({id, title, type, description ,url}) => {
     const date= new Date(parseInt(id));
     return `
